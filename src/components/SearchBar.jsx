@@ -5,7 +5,7 @@ function SearchBar({ searchText = '', onSearch }) {
   const [localSearchText, setLocalSearchText] = useState(searchText);
 
   return (
-    <div className="relative w-full sm:w-64 mb-4 sm:mb-0">
+    <div className="relative w-full sm:w-64">
       <input
         type="text"
         placeholder="검색"

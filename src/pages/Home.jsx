@@ -33,7 +33,7 @@ function Home() {
         category: filter.category,
       });
     },
-    initialData: [],
+    // initialData: [],
     staleTime: 1000 * 60 * 5, //5분 동안 데이터가 신선함(fresh) 상태 유지
     refetchOnWindowFocus: false, //윈도우창 바뀌어도 데이터 유지
   });
